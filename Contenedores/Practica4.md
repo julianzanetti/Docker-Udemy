@@ -3,9 +3,11 @@
 ![image](https://github.com/julianzanetti/Docker-Udemy/assets/134458575/6625dfd3-d8b2-48ca-8b47-cd75e109506a)
 
 2- Ejecutar el comando ls contra el contenedor para visualizar los ficheros de /.
+
 ![image](https://github.com/julianzanetti/Docker-Udemy/assets/134458575/25ae6b58-b444-4e6f-bc98-9a5a88c22b6c)
 
 3- Ver la fecha y nombre del sistema con un solo comando.
+
 ![image](https://github.com/julianzanetti/Docker-Udemy/assets/134458575/51051e48-9573-45c8-b93f-54db5b2c08cd)
 
 4- Ingresar a la shell en modo interativo, luego salir y parar el contenedor.
