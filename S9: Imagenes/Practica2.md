@@ -18,7 +18,10 @@ RUN apt-get -y install postgresql-16
 3- Cambiar al usuario postgres y crear el usuario "pguser" con pass "secret" y una base de datos "pgdb".
 ```
 USER postgres
-RUN service postgresql start && psql --command "CREATE USER pguser WITH SUPERUSER PASSWORD 'secret';"  && createdb -O pguser pgdb && service postgresql stop
+RUN service postgresql start \
+    && psql --command "CREATE USER pguser WITH SUPERUSER PASSWORD 'secret';"  \
+    && createdb -O pguser pgdb \
+    && service postgresql stop
 ```
 4- Volver al usuario ROOT y permitir que cualquier cliente pueda acceder a postgres y por cualquier IP.
 ```
