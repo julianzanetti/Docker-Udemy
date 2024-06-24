@@ -17,7 +17,7 @@ sudo dockerd \
 ```
 ![image](https://github.com/julianzanetti/Docker-Udemy/assets/134458575/f235a787-2140-4830-add8-067332085948)
 
-##Ejecutamos el ejecutable.
+## Ejecutamos el ejecutable.
 ![image](https://github.com/julianzanetti/Docker-Udemy/assets/134458575/6369898a-ffbd-41b4-867e-291b82ab00ec)
 
 ## Verificar que este corriendo el nuevo demonio.
