@@ -15,6 +15,7 @@
 docker compose up -d
 ```
 ![image](https://github.com/julianzanetti/Docker-Udemy/assets/134458575/7e9698cb-38ad-492b-8b9a-9a641fd83de8)
+
 ![image](https://github.com/julianzanetti/Docker-Udemy/assets/134458575/3d7e7153-96e2-400c-8669-e690c1599071)
 ![image](https://github.com/julianzanetti/Docker-Udemy/assets/134458575/348bf29d-bd6c-4fd8-b42a-793e3b54873b)
 ![image](https://github.com/julianzanetti/Docker-Udemy/assets/134458575/6d3f6841-9a2c-4239-a4e6-b7e2fdbd909d)
