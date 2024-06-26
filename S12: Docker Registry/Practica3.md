@@ -55,6 +55,7 @@ docker run -d -p 443:443 --restart=always --name registro_privado \
 ## Loguearnos y probar subir la imagen nuevamente.
 ![image](https://github.com/julianzanetti/Docker-Udemy/assets/134458575/ab98e130-10d7-4f7b-8bd8-bffa0b9b52da)
 ![image](https://github.com/julianzanetti/Docker-Udemy/assets/134458575/e40c0031-a71b-4378-8142-bfd8d0239fe2)
+![image](https://github.com/julianzanetti/Docker-Udemy/assets/134458575/8fdde9d8-6392-4638-b637-d5b350db4147)
 
 ## Si al loguearnos da el error X509, ìr al daemon.json que se encuentra en /etc/docker y agregamos la siguiente linea:
 ```
