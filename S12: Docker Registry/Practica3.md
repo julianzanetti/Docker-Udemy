@@ -8,6 +8,7 @@ uname -n
 ## Crear una carpeta llamada seguridad dentro del usuario que estamos utilizando (puede ser el root) y dentro descargamos nuestro archivo ssl.
 ```
 mkdir seguridad
+openssl req -newkey rsa:4096 -nodes -sha256 -keyout registro.key -x509 -days 365 -out registro.crt  -subj "/CN=DESKTOP-VA3HIEO/C=AR/ST=SFE/L=Rosario/O=Julian/OU=Zanetti" -addext "subjectAltName = DNS:DESKTOP-VA3HIEO"
 ```
 ![image](https://github.com/julianzanetti/Docker-Udemy/assets/134458575/7df94cb2-7ad5-47f8-9379-ba3a2fe0f013)
 
