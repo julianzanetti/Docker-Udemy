@@ -32,8 +32,6 @@ mkdir imagenes_docker
 ```
 ![image](https://github.com/julianzanetti/Docker-Udemy/assets/134458575/7876824c-cffa-48d2-91f8-fb60d0fe49f3)
 
-## 
-
 ## Generamos el contenedor con las siguientes especificaciones.
 ```
 docker run -d -p 443:443 --restart=always --name registro_privado \
@@ -54,7 +52,14 @@ docker run -d -p 443:443 --restart=always --name registro_privado \
 ![image](https://github.com/julianzanetti/Docker-Udemy/assets/134458575/25b60adc-9de0-43f2-b937-86727359949a)
 
 ## Loguearnos y probar subir la imagen nuevamente.
-![image](https://github.com/julianzanetti/Docker-Udemy/assets/134458575/5ff76b70-1ab0-465e-9ba7-4b5cc31e283a)
+![image](https://github.com/julianzanetti/Docker-Udemy/assets/134458575/ab98e130-10d7-4f7b-8bd8-bffa0b9b52da)
+![image](https://github.com/julianzanetti/Docker-Udemy/assets/134458575/e40c0031-a71b-4378-8142-bfd8d0239fe2)
+
+## Si al loguearnos da el error X509, ìr al daemon.json que se encuentra en /etc/docker y agregamos la siguiente linea:
+```
+"insecure-registries" : ["myregistrydomain.com:5000"]
+```
+![image](https://github.com/julianzanetti/Docker-Udemy/assets/134458575/89b75e97-c006-4d22-a78e-9fb6638b26ea)
 
 
 
